@@ -1,0 +1,200 @@
+@media (max-width: 1220px) {
+  /* Nav links */
+  .row-fluid .mainmenu {
+    float:left;
+    z-index:2;
+  }
+  .row-fluid .mainmenu ul li a {
+    font-size:16px;
+    margin:0 15px;
+  }
+
+  .row-fluid .mainmenu ul li:last-child a {
+    position:absolute;
+    right:20px;
+    font-size:16px;
+  }
+
+  /* Search */
+  .top-search,
+  .top-search .gsc-input-box,
+  .top-search .gsc-input-box input {
+    width: 32px !important;
+    border: none !important;
+  }
+  .top-search .gsc-input-box-focus,
+  .top-search .gsc-input-box-focus input {
+    width:450px !important;
+    box-shadow:none;
+  }
+  .top-search .gsst_a .gscb_a {
+    display: none;
+  }
+  .top-search-focus + .mainmenu {
+    position:absolute;
+    left:85%;
+    width:100%;
+  }
+
+
+  /* Top */
+  .top-focus {
+    border-bottom:2px solid #4597cb;
+  }
+
+  /* Footer */
+  .row-fluid .footer-btitle {
+    font-size:14px;
+  }
+
+  .row-fluid .footer-blinks a {
+    font-size:10px !important;
+  }
+
+
+  /* Careers Page */
+  .meetteam-main {
+    padding:80px 20px;
+  }
+  .meetteam-right {
+    padding-top:0;
+  }
+  .aboutserviceboxes-main {
+    padding:40px 20px !important;
+  }
+}
+
+@media (max-width: 875px) {
+  h1 {
+    font-size:48px !important;
+    line-height:52px !important;
+  }
+
+  /* Header */
+  .row-fluid .inner-header {
+    font-size:20px;
+  }
+
+  /* Hide Logo */
+  .top {
+    height:72px;
+    padding:16px 20px 16px;
+  }
+  .top .logo {
+    display:none;
+  }
+  .top-search {
+    margin-left:0 !important;
+  }
+
+  /* Footer */
+  .row-fluid .footer {
+    padding-top:20px;
+  }
+  .row-fluid .footer-social {
+    top: 20px;
+  }
+  .row-fluid .footer-social a {
+      background-size: 100% auto;
+      height: 39px;
+      width: 39px;
+  }
+  .row-fluid .footer-social a:before {
+      background-size: 100% auto !important;
+      top:0 !important;
+  }
+  .row-fluid .footer-left {
+    display:none;
+  }
+  .row-fluid .footer-privacymenu {
+      display:block;
+  }
+  .row-fluid .footer-privacymenu a {
+      font-size: 11px;
+      line-height: 16px;
+      color: #a7a7a8;
+      font-weight:300;
+  }
+  .row-fluid .footer-privacymenu li {
+      height:16px;
+  }
+  .row-fluid .footer-privacymenu ul {
+      margin:0;
+      padding:0;
+      list-style:none;
+      float:left;
+      width:100%;
+  }
+  .row-fluid .footer-text {
+    padding-top:10px;
+  }
+
+  /* Careers Page */
+  .meetteam-left {
+    width:100% !important;
+    padding:0 20px;
+  }
+  .meetteam-left img {
+    width:90%;
+    margin:0 auto;
+    display:block;
+  }
+  .meetteam-right {
+    padding: 40px 20px 0;
+    margin: 0 !important;
+    width: 100% !important;
+    text-align:center;
+  }
+  .row-fluid .aboutservice-box {
+    width: 28%;
+    float: left;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 700px) {
+  /* Hide CTA */
+  .row-fluid .mainmenu ul li:last-child {
+    display:none;
+  }
+}
+
+@media (max-width: 568px) {
+  h1 {
+    font-size:42px !important;
+    line-height:48px !important;
+  }
+
+  /* Header */
+  .row-fluid .inner-header {
+    font-size:16px;
+  }
+
+  /* Nav */
+  .top {
+    height:48px;
+    padding:3px 10px 5px;
+  }
+  .row-fluid .mainmenu ul li {
+    float:left !important;
+    width:auto;
+  }
+  .row-fluid .mainmenu ul li a {
+    font-size:12px;
+    margin:0 10px;
+    width:auto;
+  }
+  .row-fluid .mainmenu ul li.active a:before {
+    height:2px;
+    bottom:5px;
+  }
+
+  /* Careers */
+  .slick-slide img {
+    height:140px;
+  }
+  .row-fluid .aboutservice-box {
+    width:100%;
+    margin-left:0;
+  }
+}
